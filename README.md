@@ -6,7 +6,7 @@ Contributor: HCL Tech System Software Team
 Mail To: hcl_ss_oss@hcl.com
 Tags: Automation of OpenStack Swift, OpenStack Swift automation using SaltStack, HCL in OpenStack Swift automation, Installation support for OpenStack Swift, Automation of Object storage Swift
 Created:  2017 Jul 02
-Modified: 2017 Jul 02
+Modified: 2017 Jul 03
 ---
 
 swift-deployment-saltstack
