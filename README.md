@@ -187,15 +187,16 @@ salt ‘*.mitaka’ state.highstate
 
 ### After execution of the above command, the following additional command required to be executed on Salt-Master Machine1:
 <pre>
-a) 	Change to swift_mitaka directory
+a) 	Change to swift_mitaka directory.
 	
 	cd /swift_mitaka
 		
-b) 	Change the ownership of ring_distribution.sh file
+b) 	Change the ownership of ring_distribution.sh file.
 	
 	chmod a+x ring_distribution.sh
 		
-c)	Execute the ring_distribution.sh file by passing the first argument as name of Salt-Minion for controller node (i.e. 		controller.mitaka), second argument as name of Salt-Minion for objectstorage node1 (i.e. objectstorage1.mitaka), third 		argument as name of Salt-Minion for objectstorage node2 (i.e. objectstorage2.mitaka) and fourth argument as name of 		Salt-Minion for objectstorage node3 (i.e. objectstorage3.mitaka).
+c)	Execute the ring_distribution.sh file by passing the first argument as name of Salt-Minion for controller node 
+	(i.e. controller.mitaka), second argument as name of Salt-Minion for objectstorage node1 (i.e. objectstorage1.mitaka), third		argument as name of Salt-Minion for objectstorage node2 (i.e. objectstorage2.mitaka) and fourth argument as name of Salt-Minion 	for objectstorage node3 (i.e. objectstorage3.mitaka).
 	
 	./ring_distribution.sh [controller.mitaka] [objectstorage1.mitaka] [objectstorage2.mitaka] [objectstorage3.mitaka]
 </pre>
@@ -204,10 +205,10 @@ After successful installation, all five Salt-Minion machines has been configured
 
 <pre>
 On Salt-Minion for Controller node: 
-1)	Installation and configuration of object storage service (i.e. Swift)
+1)	Installation and configuration of object storage service (i.e. Swift).
 
 On Salt-Minion for Object Storage node:
-1)	Installation and configuration of object storage service (i.e. Swift)
+1)	Installation and configuration of object storage service (i.e. Swift).
 
 Additionally, the installation would make the following common changes on all the three OpenStack nodes:
 1)	Update the host file. (On Controller, Compute and Object Storage machines).
@@ -217,13 +218,6 @@ Version Information
 ===================
 This project is based and tested on the following versions:
 
-1. SaltStack Master and Minion version 2016.3.6 (Boron)
-2. OpenStack Swift Mitaka Release
-3. Ubuntu 14.04 LTS x86-64 operating system
-
-References
-==========
-<pre>
-1. https://docs.openstack.org/mitaka/install-guide-ubuntu/swift.html
-2. https://saltstack.com/
-</pre>
+1. SaltStack Master and Minion version 2016.3.6 (Boron).
+2. OpenStack Swift Mitaka Release.
+3. Ubuntu 14.04 LTS x86-64 operating system.
